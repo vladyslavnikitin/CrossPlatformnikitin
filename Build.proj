@@ -1,0 +1,26 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Solution Condition="'$(Solution)' == ''"></Solution>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(Solution)' != ''">
+    <MainProjectFile Include="$(Solution)\$(Solution).csproj" />
+    <TestProjectFile Include="$(Solution).Tests\$(Solution).Tests.csproj" />
+  </ItemGroup>
+
+  <Target Name="Build">
+    <Message Text="Building project $(Solution)..." Importance="high" />
+    <MSBuild Projects="@(MainProjectFile);@(TestProjectFile)" Targets="Restore;Build" />
+  </Target>
+
+  <Target Name="Test">
+    <Message Text="Testing $(Solution)..." Importance="high" />
+    <Exec Command="dotnet test @(TestProjectFile)" />
+  </Target>
+
+  <Target Name="Run">
+    <Message Text="Running $(Solution)..." Importance="high" />
+    <Exec Command="dotnet run --project @(MainProjectFile)" />
+  </Target>
+</Project>
