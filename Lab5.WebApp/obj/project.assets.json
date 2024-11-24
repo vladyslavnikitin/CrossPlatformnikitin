@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.Library\\Lab5.Library.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Brave Ukraine\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.WebApp\\Lab5.WebApp.csproj",
+      "projectName": "Lab5.WebApp",
+      "projectPath": "C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.WebApp\\Lab5.WebApp.csproj",
+      "packagesPath": "C:\\Users\\Brave Ukraine\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.WebApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Brave Ukraine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\123": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.Library\\Lab5.Library.csproj": {
+              "projectPath": "C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.Library\\Lab5.Library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.Library\\Lab5.Library.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.Library\\Lab5.Library.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

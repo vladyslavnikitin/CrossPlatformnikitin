@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "bSHP1T4pBp7aWGHt6FUg3hpH8uzZhlaXrgedHr3pz8DukImAWtIladkC5hBV2cPrbSb1o9i1oOcY2PyTIOZ+kA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.WebApp\\Lab5.WebApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.Library\\Lab5.Library.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Brave Ukraine\\Desktop\\crossplatformnikitin\\CrossPlatformLabs-master\\CrossPlatformLabs-master\\Lab5.Library\\Lab5.Library.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

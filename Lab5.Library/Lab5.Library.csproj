@@ -1,0 +1,25 @@
+﻿using System.IO;
+
+namespace Lab5.Library
+{
+    public class LabRunner
+    {
+        public string RunLab1(string inputFile)
+        {
+            var input = File.ReadAllText(inputFile);
+            return $"Lab 1 executed. Input: {input}";
+        }
+
+        public string RunLab2(string inputFile)
+        {
+            var input = File.ReadAllText(inputFile);
+            return $"Lab 2 executed. Input: {input}";
+        }
+
+        public string RunLab3(string inputFile)
+        {
+            var input = File.ReadAllText(inputFile);
+            return $"Lab 3 executed. Input: {input}";
+        }
+    }
+}
